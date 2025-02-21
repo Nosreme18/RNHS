@@ -101,6 +101,82 @@
     <!-- END POP UP LOGIM -->
 
 
+    <!-- POP UP REGISTER -->
+    <div class="register_popup">
+        <div class="back_register">
+            <!-- back btn -->
+        </div>
+        <div class="register_form">
+            <h3>Registration Form</h3>
+            <form>
+                <div class="register_field">
+                    <div class="register_input">
+                        <label for="">First Name</label>
+                        <input type="text" name="firstname" placeholder="First Name">
+                    </div>
+                    <div class="register_input">
+                        <label for="">Last Name</label>
+                        <input type="text" name="lastname" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="register_field">
+                    <div class="register_input">
+                        <label for="">Email</label>
+                        <input type="text" name="email" placeholder="Email">
+                    </div>
+                    <div class="register_input">
+                        <label for="">Phone Number</label>
+                        <input type="text" name="number" placeholder="Number">
+                    </div>
+                </div>
+                <div class="info_container">
+                    <div class="register_info">
+                        <label for="">Gender</label>
+                        <div class="info_label">
+                            <label class="custom-checkbox">
+                                <input type="radio" name="gender" value="Male">
+                                <span class="checkmark">Male</span>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="radio" name="gender" value="Female">
+                                <span class="checkmark">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="register_address">
+                    <div class="register_place">
+                        <label for="">Province</label>
+                        <input type="text" placeholder="Province">
+                    </div>
+                    <div class="register_place">
+                        <label for="">Municipal</label>
+                        <input type="text" placeholder="Municipal">
+                    </div>
+                    <div class="register_place">
+                        <label for="">Barangay</label>
+                        <input type="text" placeholder="Barangay">
+                    </div>
+                </div>
+                <input type="hidden" name="" value="">
+                <div class="register_field">
+                    <div class="register_input">
+                        <label for="">Password</label>
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="register_input">
+                        <label for="">Confirm Password</label>
+                        <input type="password" name="password_confirmation" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class="register_btn">
+                    <a href="">Create Account</a>
+                </div>
+                <!-- <button class="register_btn" type="submit">Create Acoount</button> -->
+            </form>
+        </div>
+    </div>
+
     <!-- POP UP LOGIN JS -->
     <script>
         document.getElementById("login").addEventListener("click", function() {
@@ -114,6 +190,18 @@
         })
     </script>
 
+
+    <!-- POP UP REGISTER JS -->
+    <script>
+        document.getElementById("create_now").addEventListener("click", function() {
+            document.querySelector(".register_popup").style.display = "flex";
+        })
+
+        document.querySelector(".back_register").addEventListener("click", function() {
+            document.querySelector(".register_popup").style.display = "none";
+
+        })
+    </script>
 
 
 
