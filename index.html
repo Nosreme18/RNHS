@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosales National High School</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="front_container" id="Home">
+        <img src="image/school1.jpg" alt="Image description">
+        <nav class="nav_bar">
+            <div class="school_logo">
+                <img src="image/logo/logo.png" alt="Image description ">
+            </div>
+            <ul>
+                <li>
+                    <a href="#Home">Rosales National High School</a>
+                </li>
+                <!-- <li><a href="#about ">About</a></li>
+                <li><a href="#popular ">Popular</a></li>
+                <li><a href="#adventure ">Adventure</a></li> -->
+                <!-- <li><a href="# ">Register</a></li>  -->
+            </ul>
+            <div class="sign_up ">
+                <button id="login">Login</button>
+            </div>
+        </nav>
+
+        <div class="front_title">
+
+            <div class="title_content">
+                <h2>Welcome to the</h2>
+                <h2>Rosales National High School</h2>
+
+            </div>
+
+        </div>
+
+        <div class="school_location">
+            <span>Location: Coloma St., Don Antonio Village, Rosales Pangasinan</span>
+        </div>
+    </section>
+    <section class="second_container" id="about">
+        <div class="rosales_container">
+            <div class="rosales">
+                <!-- <img src="{{url( '/image/bp.jpg')}} " alt="Image description "> -->
+                <h3>What does Rosales National High School stand for?</h3>
+                <p>Rosales National High School <span>(RNHS)</span> is a public secondary educational institution located in Rosales, Pangasinan. The school was established to provide quality and affordable education to its residents.</p>
+
+                <p>The school is currently implementing a K to 12 basic education program offering both junior and senior high school. It is in accordance with the resolution that was ordered by the Department of Education <span>(DepEd)</span>. The school
+                    has <span>HumSS</span> strand, <span>STEM</span> strand,<span>ABM</span> strand and <span>GAS</span> under the Academic track as well as Technical-Vocational-Livelihood <span>(TVL)</span> track which equips students with technical
+                    skills for its senior high school program.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact_us">
+            <p>Contact us for more Info</p>
+        </div>
+        <div class="contact_footer">
+            <p>:rosalesnatioanlhighschool@gmail.com</p>
+            <p>:09999999999</p>
+        </div>
+    </footer>
+
+    <!-- POP UP LOGIN -->
+    <div class="login_popup ">
+        <div class="back_login "></div>
+        <div class="login_container">
+            <h3>Log In,here!</h3>
+            <form action=" ">
+                <div class="login_form ">
+                    <div class="input_field ">
+                        <label for=" ">Email</label>
+                        <input type="text " placeholder=" Email ">
+                    </div>
+                    <div class="input_field ">
+                        <label for=" ">Password</label>
+                        <input type="password" placeholder="Password ">
+                    </div>
+                </div>
+                <din class="input_forget">
+                    <a href="">Forget Password</a>
+                </din>
+                <div class="input_btn">
+                    <a href="page/home.html">
+                        Log In
+                    </a>
+                </div>
+                <din class="input_create_account">
+                    <p>Don't have an account? <span class="create_account" id="create_now">Sign up! now</span></p>
+                </din>
+            </form>
+        </div>
+    </div>
+
+    <!-- END POP UP LOGIM -->
+
+
+    <!-- POP UP REGISTER -->
+    <div class="register_popup">
+        <div class="back_register">
+            <!-- back btn -->
+        </div>
+        <div class="register_form">
+            <h3>Registration Form</h3>
+            <form>
+                <div class="register_field">
+                    <div class="register_input">
+                        <label for="">First Name</label>
+                        <input type="text" name="firstname" placeholder="First Name">
+                    </div>
+                    <div class="register_input">
+                        <label for="">Last Name</label>
+                        <input type="text" name="lastname" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="register_field">
+                    <div class="register_input">
+                        <label for="">Email</label>
+                        <input type="text" name="email" placeholder="Email">
+                    </div>
+                    <div class="register_input">
+                        <label for="">Phone Number</label>
+                        <input type="text" name="number" placeholder="Number">
+                    </div>
+                </div>
+                <div class="info_container">
+                    <div class="register_info">
+                        <label for="">Gender</label>
+                        <div class="info_label">
+                            <label class="custom-checkbox">
+                                <input type="radio" name="gender" value="Male">
+                                <span class="checkmark">Male</span>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="radio" name="gender" value="Female">
+                                <span class="checkmark">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="register_address">
+                    <div class="register_place">
+                        <label for="">Province</label>
+                        <input type="text" placeholder="Province">
+                    </div>
+                    <div class="register_place">
+                        <label for="">Municipal</label>
+                        <input type="text" placeholder="Municipal">
+                    </div>
+                    <div class="register_place">
+                        <label for="">Barangay</label>
+                        <input type="text" placeholder="Barangay">
+                    </div>
+                </div>
+                <input type="hidden" name="" value="">
+                <div class="register_field">
+                    <div class="register_input">
+                        <label for="">Password</label>
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="register_input">
+                        <label for="">Confirm Password</label>
+                        <input type="password" name="password_confirmation" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class="register_btn">
+                    <a href="page/home.html">Create Account</a>
+                </div>
+                <!-- <button class="register_btn" type="submit">Create Acoount</button> -->
+            </form>
+        </div>
+    </div>
+
+    <!-- POP UP LOGIN JS -->
+    <script>
+        document.getElementById("login").addEventListener("click", function() {
+            document.querySelector(".login_popup").style.display = "flex";
+
+        })
+
+        document.querySelector(".back_login").addEventListener("click", function() {
+            document.querySelector(".login_popup").style.display = "none";
+
+        })
+    </script>
+
+
+    <!-- POP UP REGISTER JS -->
+    <script>
+        document.getElementById("create_now").addEventListener("click", function() {
+            document.querySelector(".register_popup").style.display = "flex";
+        })
+
+        document.querySelector(".back_register").addEventListener("click", function() {
+            document.querySelector(".register_popup").style.display = "none";
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>
